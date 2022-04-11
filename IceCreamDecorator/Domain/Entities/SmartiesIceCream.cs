@@ -1,14 +1,15 @@
-﻿using System;
+﻿using IceCreamDecorator.Domain.Abstractions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IceCreamDecorator
+namespace IceCreamDecorator.Domain.Entities
 {
-    internal class Smarties:Decorator
+    internal class SmartiesIceCream:Decorator
     {
-        public Smarties(IceCreameSeller iceCreameSeller) : base(iceCreameSeller)
+        public SmartiesIceCream(IceCreameSeller iceCreameSeller) : base(iceCreameSeller)
         {
         }
 

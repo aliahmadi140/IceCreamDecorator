@@ -1,7 +1,8 @@
 ﻿using IceCreamDecorator;
+using IceCreamDecorator.Application;
 
-NormalIceCream NormalIceCream =new NormalIceCream();
-Chocolate_IceCream Chocolate_IceCream =new Chocolate_IceCream(NormalIceCream);
-Smarties Smarties =new Smarties(Chocolate_IceCream);
- 
-Console.WriteLine("Sell "+Smarties.SellIceCream());
+IceCream_Seller IceCream_Seller=new IceCream_Seller();
+
+IceCream_Seller.Sell_Chocolate_IceCream();
+IceCream_Seller.Sell_Smarties_IceCream();
+IceCream_Seller.Sell_Normal_IceCream();

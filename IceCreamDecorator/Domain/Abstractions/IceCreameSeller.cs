@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IceCreamDecorator
+namespace IceCreamDecorator.Domain.Abstractions
 {
     internal abstract class IceCreameSeller
     {
